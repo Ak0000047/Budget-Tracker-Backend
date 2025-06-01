@@ -14,7 +14,7 @@ def run_migrations():
     except Exception as e:
         print(f"Error applying migrations: {e}")
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'your_project_name.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backend.settings')
 
 run_migrations()
 
